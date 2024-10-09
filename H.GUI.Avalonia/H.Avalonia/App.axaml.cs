@@ -16,7 +16,10 @@ using ClimateResultsView = H.Avalonia.Views.ResultViews.ClimateResultsView;
 using SoilResultsView = H.Avalonia.Views.ResultViews.SoilResultsView;
 using H.Avalonia.ViewModels.SupportingViews.Disclaimer;
 using H.Avalonia.Views.SupportingViews.Disclaimer;
+using H.Avalonia.ViewModels.SupportingViews.MeasurementProvince;
+using H.Avalonia.Views.SupportingViews.MeasurementProvince;
 using H.Core.Services;
+using H.Core.Services.Provinces;
 
 namespace H.Avalonia
 {
@@ -54,6 +57,7 @@ namespace H.Avalonia
 
             // New development work
             containerRegistry.RegisterForNavigation<DisclaimerView, DisclaimerViewModel>();
+            containerRegistry.RegisterForNavigation<MeasurementProvinceView, MeasurementProvinceViewModel>();
 
             // 
             //containerRegistry.RegisterSingleton<ResultsViewModelBase>();
@@ -66,6 +70,8 @@ namespace H.Avalonia
             containerRegistry.RegisterSingleton<KmlHelpers>();
 
             containerRegistry.RegisterSingleton<ICountrySettings, CountrySettings>();
+            containerRegistry.RegisterSingleton<IProvinces, ProvincesService>();
+
 
             // Dialogs
             containerRegistry.RegisterDialog<DeleteRowDialog, DeleteRowDialogViewModel>();
@@ -86,11 +92,11 @@ namespace H.Avalonia
             regionManager.RegisterViewWithRegion(UiRegions.SidebarRegion, typeof(SidebarView));
             regionManager.RegisterViewWithRegion(UiRegions.FooterRegion, typeof(FooterView));
             regionManager.RegisterViewWithRegion(UiRegions.ContentRegion, typeof(DisclaimerView));
+            regionManager.RegisterViewWithRegion(UiRegions.ContentRegion, typeof(MeasurementProvinceView));
 
             var geographicProvider = Container.Resolve<GeographicDataProvider>();
             geographicProvider.Initialize();
             Container.Resolve<KmlHelpers>();
-
         }
     }
 }

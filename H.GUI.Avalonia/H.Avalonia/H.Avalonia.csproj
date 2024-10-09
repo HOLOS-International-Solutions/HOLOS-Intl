@@ -88,6 +88,9 @@
       <DependentUpon>SoilResultsView.axaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\SupportingViews\MeasurementProvince\MeasurementProvinceView.axaml.cs">
+      <DependentUpon>MeasurementProvinceView.axaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>

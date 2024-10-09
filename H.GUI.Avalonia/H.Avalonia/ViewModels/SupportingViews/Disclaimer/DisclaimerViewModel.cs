@@ -14,6 +14,7 @@ using System.Threading.Tasks;
 using H.Avalonia.Views;
 using H.Core.Services;
 using Prism.Commands;
+using H.Avalonia.Views.SupportingViews.MeasurementProvince;
 
 namespace H.Avalonia.ViewModels.SupportingViews.Disclaimer
 {
@@ -180,15 +181,7 @@ namespace H.Avalonia.ViewModels.SupportingViews.Disclaimer
 
         private void OnOkExecute(object obj)
         {
-            // Navigate to next view
-            if (_countrySettings.Version == CountryVersion.Canada)
-            {
-                base.RegionManager.RequestNavigate(UiRegions.ContentRegion, nameof(SoilDataView));
-            }
-            else
-            {
-                base.RegionManager.RequestNavigate(UiRegions.ContentRegion, nameof(ClimateDataView));
-            }
+            base.RegionManager.RequestNavigate(UiRegions.ContentRegion, nameof(MeasurementProvinceView));         
         }
 
         private bool OkCanExecute(object arg)
