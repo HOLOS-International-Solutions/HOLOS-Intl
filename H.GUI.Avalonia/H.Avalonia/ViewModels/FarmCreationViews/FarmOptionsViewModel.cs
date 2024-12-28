@@ -41,7 +41,7 @@ namespace H.Avalonia.ViewModels
 
         private void OnNavigateToCreateNewFarm()
         {
-            _regionManager.RequestNavigate(UiRegions.ContentRegion, nameof(FarmCreationView));
+            _regionManager.RequestNavigate(UiRegions.ContentRegion, nameof(BlankView));
         }
 
         #endregion
