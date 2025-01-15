@@ -69,10 +69,10 @@
 						<ColumnDefinition/>
 						<ColumnDefinition/>
 					</Grid.ColumnDefinitions>
-					<StackPanel Grid.Column="1"  Orientation="Horizontal" HorizontalAlignment="Center">
+					<StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
 						<Button IsDefault="True"
 								Click="Button_OnClick"
-								
+								Margin="0,10,0,0"
                                 Content="{x:Static properties:Resources.LabelOk}"/>
 					</StackPanel>
                 </Grid>

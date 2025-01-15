@@ -30,13 +30,10 @@
 		</Grid.RowDefinitions>
 
 		<Grid Row="0">
-			<Border BorderBrush="LightGray"
-                    BorderThickness="1">
-				<TextBlock Padding="10,0"
-						   TextWrapping="Wrap"
+			<Border Classes="mycomponent-border">
+				<TextBlock 
 						   Classes="title-textblock"
-						   Text="My Components"
-						   VerticalAlignment="Center">
+						   Text="My Components">
 				</TextBlock>
 			</Border>
 		</Grid>
@@ -58,8 +55,7 @@
         </ListBox>
 
 		<Border Grid.Row="2"
-                BorderBrush="LightGray"
-                BorderThickness="1"
+                Classes="mycomponent-border"
                 Height="100">
 			<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center"
                         Margin="20,0">
