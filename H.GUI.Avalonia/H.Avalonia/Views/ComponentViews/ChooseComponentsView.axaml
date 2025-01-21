@@ -24,6 +24,9 @@
 			<!-- Content row -->
             <RowDefinition/>
 
+            <!-- Gridsplitter row -->
+            <RowDefinition Height="Auto"/>
+
 			<!-- Command row -->
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
@@ -81,8 +84,10 @@
             </StackPanel>
         </Grid>
 
-        <Grid Name="CommandGrid" 
-              Grid.Row="2"
+        <GridSplitter Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="2" HorizontalAlignment="Stretch"/>
+
+		<Grid Name="CommandGrid" 
+              Grid.Row="3"
               Grid.Column="0"
               Grid.ColumnSpan="3"
               Height="100">

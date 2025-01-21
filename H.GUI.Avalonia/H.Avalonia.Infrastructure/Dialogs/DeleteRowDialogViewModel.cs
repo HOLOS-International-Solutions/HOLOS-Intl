@@ -64,7 +64,7 @@ namespace H.Avalonia.Infrastructure.Dialogs
         }
 
         /// <summary>
-        /// Triggered when the dialogue is opened. Allows us to display items in the dialogue using the paramaters passed
+        /// Triggered when the dialogue is opened. Allows us to display items in the dialogue using the parameters passed
         /// to the dialogue window.
         /// </summary>
         /// <param name="parameters">The parameters passed to the dialog service.</param>

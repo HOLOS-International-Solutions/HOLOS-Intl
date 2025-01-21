@@ -1,0 +1,29 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:infrastructure="clr-namespace:H.Avalonia.Infrastructure;assembly=H.Avalonia.Infrastructure"
+             xmlns:componentViews="clr-namespace:H.Avalonia.ViewModels.ComponentViews"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="H.Avalonia.Views.ComponentViews.CommandView">
+
+    <Design.DataContext>
+        <componentViews:MyComponentsViewModelDesign/>
+    </Design.DataContext>
+
+    <UserControl.Resources>
+        <infrastructure:EnumDescriptionConverter x:Key="EnumDescriptionConverter" />
+    </UserControl.Resources>
+
+	<Border BorderBrush="LightGray"
+            BorderThickness="1"
+            Height="100">
+        <StackPanel Orientation="Vertical" 
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Center"
+                    Margin="20,0">
+            <Button HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" Command="{Binding Path=OnEditComponentsExecute}">Edit Components</Button>
+            <Button HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" Command="{Binding Path=OnRemoveComponentExecute}">Delete Selected Component</Button>
+        </StackPanel>
+    </Border>
+</UserControl>

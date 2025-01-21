@@ -90,6 +90,16 @@ public class MyComponentsViewModel : ViewModelBase
         }
     }
 
+    public void OnRemoveComponentExecute()
+    {
+        if (this.SelectedComponent != null)
+        {
+            this.MyComponents.Remove(this.SelectedComponent);
+
+            this.SelectedComponent = this.MyComponents.LastOrDefault();
+        }
+    }
+
     private void OnComponentAddedEvent(ComponentBase componentBase)
     {
         var instanceType = componentBase.GetType();

@@ -4,6 +4,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 			 xmlns:componentView="clr-namespace:H.Avalonia.ViewModels.ComponentViews"
 			 xmlns:infrastructure="clr-namespace:H.Avalonia.Infrastructure;assembly=H.Avalonia.Infrastructure"
+			 xmlns:avalonia="clr-namespace:H.Avalonia"
+			 xmlns:componentViews="clr-namespace:H.Avalonia.Views.ComponentViews"
 			 mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="H.Avalonia.Views.ComponentViews.MyComponentsView">
 
@@ -25,6 +27,9 @@
 			<!-- Listbox row definition -->
 			<RowDefinition Height="*"/>
 
+            <!-- Gridsplitter row definition -->
+            <RowDefinition Height="Auto"/>
+
 			<!-- Command row definition -->
 			<RowDefinition Height="Auto"/>
 		</Grid.RowDefinitions>
@@ -41,7 +46,6 @@
 			</Border>
 		</Grid>
 
-
 		<ListBox Name="MyComponentsListBox"
                  SelectionMode="Single"
                  BorderBrush="LightGray"
@@ -57,14 +61,8 @@
             </ListBox.ItemTemplate>
         </ListBox>
 
-		<Border Grid.Row="2"
-                BorderBrush="LightGray"
-                BorderThickness="1"
-                Height="100">
-			<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center"
-                        Margin="20,0">
-				<Button Command="{Binding Path=OnEditComponentsExecute}">Edit Components</Button>
-            </StackPanel>
-        </Border>
-	</Grid>
+		<GridSplitter Grid.Row="2" HorizontalAlignment="Stretch"/>
+
+		<componentViews:CommandView Grid.Row="3"/>
+    </Grid>
 </UserControl>
