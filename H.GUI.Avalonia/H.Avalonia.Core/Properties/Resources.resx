@@ -278,7 +278,7 @@ Hassan Afzaal</value>
     <value>Multiple Coordinates</value>
   </data>
   <data name="LabelOk" xml:space="preserve">
-    <value>Ok</value>
+    <value>OK</value>
   </data>
   <data name="LabelOrganicMatterSoil" xml:space="preserve">
     <value>% Organic Matter in Soil</value>

@@ -36,9 +36,7 @@
                 IsEnabled="{Binding !IsProcessingData, Mode=TwoWay}"
                 Click="ExportDataButton_OnClick"
                 HorizontalAlignment="Right"
-                Background="MediumAquamarine"
-                Margin="20, 10"
-                Cursor="Hand"/>
+                Margin="20, 10"/>
         <DataGrid Grid.Row="3"
                   ItemsSource="{Binding ClimateResultsViewItems}"
                   Margin="20,0,20,20"

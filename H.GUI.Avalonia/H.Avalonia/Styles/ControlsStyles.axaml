@@ -68,10 +68,21 @@
 		<Setter Property="Width" Value="2"/>
 	</Style>
 
+    <!-- Grid.Border Styles-->
+    <Style Selector="Border.component-border">
+        <Setter Property="BorderBrush" Value="LightGray" />
+        <Setter Property="BorderThickness" Value="1" />
+    </Style>
+
 	<!-- TextBlock Styles -->
 	<Style Selector="TextBlock.title-textblock">
 		<Setter Property="FontWeight" Value="Bold"/>
 		<Setter Property="FontSize" Value="18" />
 		<Setter Property="Foreground" Value="{StaticResource DefaultForegroundTextBrush}" />
+        <Setter Property="Padding" Value="20" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+        <Setter Property="VerticalAlignment" Value="Center" />
 	</Style>
+    
+
 </Styles>

@@ -46,7 +46,7 @@
               Grid.ColumnSpan="3"
               Height="100"
               VerticalAlignment="Center">
-            <Border BorderBrush="LightGray" BorderThickness="1">
+            <Border Classes="component-border">
             <StackPanel Margin="10,0" VerticalAlignment="Center">
                 <TextBlock Classes="title-textblock">Choose Components For Your Farm</TextBlock>
             </StackPanel>
@@ -86,7 +86,7 @@
               Grid.Column="0"
               Grid.ColumnSpan="3"
               Height="100">
-            <Border BorderBrush="LightGray" BorderThickness="1">
+            <Border Classes="component-border">
             <UniformGrid Columns="2">
                 <Button Margin="10,0" Command="{Binding OnAddComponentExecute}" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch">Add Selected Component</Button>
                 <Button Margin="10,0" Command="{Binding OnFinishedAddingComponentsExecute}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center">Finished Selecting Components</Button>
