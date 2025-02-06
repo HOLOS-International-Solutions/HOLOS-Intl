@@ -93,6 +93,9 @@
     <Compile Update="Views\SupportingViews\MeasurementProvince\MeasurementProvinceView.axaml.cs">
       <DependentUpon>MeasurementProvinceView.axaml</DependentUpon>
     </Compile>
+    <Compile Update="Views\SupportingViews\CreateFarmView\CreateFarmView.axaml.cs">
+      <DependentUpon>CreateFarmView.axaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>

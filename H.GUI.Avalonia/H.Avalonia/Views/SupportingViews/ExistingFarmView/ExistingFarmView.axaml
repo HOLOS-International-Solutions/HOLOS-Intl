@@ -1,0 +1,43 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="H.Avalonia.ExistingFarmView"
+        Title="ExistingFarmView">
+
+		<Grid RowDefinitions="Auto,Auto,*,Auto" ColumnDefinitions="*" Margin="30,0">
+
+			<!-- Title -->
+			<TextBlock Grid.Row="0" HorizontalAlignment="Center" Margin="0,20,0,10"
+					   Text="Open an existing Farm" FontSize="16" FontWeight="Bold" />
+
+			<!-- Search Box -->
+			<StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,10" HorizontalAlignment="Center">
+				<TextBox Width="300" Text="Search by name or comment..." />
+			</StackPanel>
+
+			<!-- DataGrid -->
+			<DataGrid Grid.Row="2" Margin="0,10" AutoGenerateColumns="True">
+				<DataGrid.Columns>
+					<DataGridTextColumn Header="Name" Width="*" />
+					<DataGridTextColumn Header="District" Width="*" />
+					<DataGridTextColumn Header="Comments" Width="*" />
+					<DataGridTextColumn Header="Date Created" Width="*" />
+					<DataGridTextColumn Header="Date Modified" Width="*" />
+				</DataGrid.Columns>
+			</DataGrid>
+
+			<StackPanel Grid.Row="3" Spacing="35"  HorizontalAlignment="Center" Margin="0,10,0,20">
+				<!-- Open Button -->
+				<Button  Content="Open" HorizontalAlignment="Center"  />
+				<!-- Import Button -->
+				<Button Content="Import"  Background="LightGray" HorizontalAlignment="Center"  />
+			</StackPanel>
+			<!-- Separator -->
+			<Separator Grid.Row="3" Margin="0,20" />
+
+		</Grid>
+
+
+</Window>
