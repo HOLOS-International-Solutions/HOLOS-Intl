@@ -2829,7 +2829,7 @@ There are two methods to add a new farm to an existing farms folder. [The common
 </p>
 <br>
 
-**Field Data Input Section (Crop Data, Manure Data, Cover Crop Data)**
+**Field Data Input Section (Crop Data, Manure Data, Undersown Crops/Grazed Crop Data)**
 
 <br>
 <p align="center">
@@ -2842,12 +2842,12 @@ There are two methods to add a new farm to an existing farms folder. [The common
 		<br>
 		D: Manure Data
 		<br>
-		E: Cover Crop Data
+		E: Undersown Crops/Grazed Crop Data.
 	</em>
 </p>
 <br>
 
-**Field Data Input Section (Undersown Crops or Grazed Crop Data)**
+**Field Data Input Section (Cover Crop Data)**
 
 <br>
 <p align="center">
@@ -2856,7 +2856,7 @@ There are two methods to add a new farm to an existing farms folder. [The common
     <em>
 		Figure 10-14 - Field Data Input Section (Crop Data).
 		<br>
-		F: Undersown Crops/Grazed Crop Data.
+		F: Cover Crop Data.
 	</em>
 </p>
 <br>
