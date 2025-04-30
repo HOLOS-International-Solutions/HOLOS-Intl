@@ -2836,7 +2836,7 @@ There are two methods to add a new farm to an existing farms folder. [The common
  <img src="../../Images/UserGuide/en/chapter10/figure10-13.png" alt="Figure10-13" width="950"/>
     <br>
     <em>
-		Figure 10-13 - Field Data Input Section (Crop Data, Manure Data, Cover Crop Data)
+		Figure 10-13 - Field Data Input Section (Crop Data, Manure Data, Undersown Crops/Grazed Crop Data)
 		<br>
 		C: Crop Data 
 		<br>
@@ -2854,7 +2854,7 @@ There are two methods to add a new farm to an existing farms folder. [The common
  <img src="../../Images/UserGuide/en/chapter10/figure10-14.png" alt="Figure10-14" width="950"/>
     <br>
     <em>
-		Figure 10-14 - Field Data Input Section (Crop Data).
+		Figure 10-14 - Field Data Input Section (Crop Climate Data).
 		<br>
 		F: Crop Climate Data.
 	</em>
