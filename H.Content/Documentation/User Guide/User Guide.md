@@ -2687,7 +2687,7 @@ There are two methods to add a new farm to an existing farms folder. [The common
 
 <br>
 <p align="center">
- <img src="../../Images/UserGuide/en/chapter10/figure10-7.png" alt="Figure10-7" width="750"/>
+ <img src="../../Images/UserGuide/en/chapter10/figure10-7.png" alt="Figure10-7" width="950"/>
     <br>
     <em>
 		Figure 10-7 - Farm global settings file.
