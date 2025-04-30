@@ -2778,10 +2778,10 @@ There are two methods to add a new farm to an existing farms folder. [The common
 -	**Crop Row Data**: Crop Year, Crop Type, Tillage  Type, Year In Perennial Stand, Row ID, Perennial Stand Length(Years), Biomass Coefficient Product, Biomass Coefficient Straw, Biomass Coefficient Roots, Biomass Coefficient Extra roots, Nitrogen Content In Product (kg kg^-1), Nitrogen Content In Straw (kg kg^-1), Nitrogen Content In Roots(kg kg^-1), Nitrogen Content In Extra roots (kg kg^-1), Carbon Concentration (kg kg^-1).
 -	**Crop Data**: Yield (kg ha ^-1), Harvest Method, Nitrogen Fertilizer Rate(kg N ha^-1), Phosphorous Fertilizer Rate(kg P ha^-1), Is Irrigated, Irrigation Type, Amount Of Irrigation(mm), Moisture Content Of Crop(%), Percentage Of Straw Returned To Soil(%),Percentage Of Roots Returned To Soil(%), Percentage Of Product Yield Returned To Soil(%), Is Pesticide Used, Number Of Pesticide Passes
 -	**Manure Data**: Manure Applied, Amount of Manure Applied (kg ha^-1), Manure Application Type, Manure Animal Source Type, Manure State Type, Manure Location Source Type
--	**Cover Crop Data**: Cover Crops Used, Cover Crop Type, Cover Crop Termination Type
 -	**Undersown Crop Data**: Under Sown Crops Used
 -	**Grazed Crop Data**: Crop Is Grazed
 -	The figures below are an example of the different data groups based on the field data input Excel file to make it easier to visualize.
+-	**Crop Climate Data**: Climate Parameter, Tillage Factor, Fuel Energy
 
 <br>
 
@@ -2847,7 +2847,7 @@ There are two methods to add a new farm to an existing farms folder. [The common
 </p>
 <br>
 
-**Field Data Input Section (Cover Crop Data)**
+**Field Data Input Section (Crop Climate Data)**
 
 <br>
 <p align="center">
@@ -2856,7 +2856,7 @@ There are two methods to add a new farm to an existing farms folder. [The common
     <em>
 		Figure 10-14 - Field Data Input Section (Crop Data).
 		<br>
-		F: Cover Crop Data.
+		F: Crop Climate Data.
 	</em>
 </p>
 <br>
