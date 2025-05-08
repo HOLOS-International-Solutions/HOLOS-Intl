@@ -3214,7 +3214,7 @@ Below is an example of a beef component data file broken into sections
 -	Each row in the Excel file will refer to **one of these animal groups** and **one management period** (an animal group can have multiple management periods).
 -	**If you have multiple management periods for an animal group (same group name and group type)**, please add another row referring to the same animal group but change the management period data accordingly.
 -	Sheep components have specific data for **wool production, energy required to produce wool, energy required to produce milk, gain coefficient A and gain coefficient B**,
--	**If the data does not apply to an animal group, please enter “N/A” as shown below in figure 10.18**
+-	**If the data does not apply to an animal group, please enter “N/A”**
 
 Below is an example of a sheep component data file broken into sections
 
@@ -3257,7 +3257,18 @@ Below is an example of a sheep component data file broken into sections
 		<br>
 		E: Housing details for management period.
 		<br>
-		F: Manure details for management period.
+		F: Bedding details for management period.
+	</em>
+</p>
+<br>
+
+<p align="center">
+ <img src="../../Images/UserGuide/en/chapter10/figure10-28b.png" alt="Figure10-28b" width="950"/>
+    <br>
+    <em>
+		Figure 10-28b - Sheep Data Section 4.
+		<br>
+		F: Bedding details for management period.
 	</em>
 </p>
 <br>
