@@ -3166,6 +3166,8 @@ Below is an example of a beef component data file broken into sections
     <em>
 		Figure 10-23 - Dairy Data Section 2.
 		<br>
+		C: Dairy group management period.
+		<br>
 		D: Diet details for management period.
 	</em>
 </p>
@@ -3181,7 +3183,7 @@ Below is an example of a beef component data file broken into sections
 		<br>
 		E: Housing details for management period.
 		<br>
-		F: Manure details for management period.
+		F: Bedding details for management period.
 	</em>
 </p>
 <br>
@@ -3192,7 +3194,7 @@ Below is an example of a beef component data file broken into sections
     <em>
 		Figure 10-25 - Dairy Data Section 4.
 		<br>
-		F: Manure details for management period.
+		F: Bedding details for management period.
 	</em>
 </p>
 <br>
