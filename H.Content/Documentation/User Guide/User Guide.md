@@ -3257,9 +3257,21 @@ Below is an example of a sheep component data file broken into sections
     <em>
 		Figure 10-28 - Sheep Data Section 3.
 		<br>
-		E: Housing details for management period.
+		D: Diet details for management period.
 		<br>
-		F: Manure details for management period.
+		E: Bedding details for management period.
+	</em>
+</p>
+<br>
+
+
+<p align="center">
+ <img src="../../Images/UserGuide/en/chapter10/figure10-28b.png" alt="Figure10-28" width="950"/>
+    <br>
+    <em>
+		Figure 10-28 - Sheep Data Section 3.
+		<br>
+		E: Bedding details for management period.
 	</em>
 </p>
 <br>
