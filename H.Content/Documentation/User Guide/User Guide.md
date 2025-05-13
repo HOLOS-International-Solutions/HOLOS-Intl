@@ -3517,7 +3517,7 @@ If you have [installed the CLI](https://github.com/holos-aafc/Holos#download), t
 		<br>
 		B: Results for a component
 		<br>
-		C: Monthly results for an animal group, including totals for all the months
+		C: Monthly results for an animal group
 	</em>
 </p>
 <br>
