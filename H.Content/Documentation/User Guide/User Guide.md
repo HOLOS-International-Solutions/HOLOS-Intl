@@ -3668,14 +3668,14 @@ If the names of the component’s are not valid, the data will not be processed.
 
 ### One of the Data Values is Empty
 
-1. Below is an example of an empty data value in a shelterbelt data input Excel file
+1. Below is an example of an empty data value in a Beef Finisher data input Excel file
 
 <br>
 <p align="center">
  <img src="../../Images/UserGuide/en/chapter10/figure10-38.png" alt="Figure10-38" width="850"/>
     <br>
     <em>
-		Figure 10-38 - Example of an Empty Data Value in a Shelterbelt Data Input Excel File
+		Figure 10-38 - Example of an Empty Data Value in a Beef Finisher Data Input Excel File
 		<br>
 		A: Empty data value
 	</em>
